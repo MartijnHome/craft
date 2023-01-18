@@ -10,20 +10,34 @@
  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="ltr">
-  {% include "_includes/nav" %}
-
-  <div class="container mx-auto px-4">
-    {% block content %}
+<body>
+  <div class="h-screen w-full bg-black relative">
+    {% block image %}
     {% endblock %}
-  </div>
 
-  <footer class="container mx-auto mt-8 p-4 text-sm opacity-50">
+    <div class="absolute left-0 top-0 w-full">
+      {% include "_includes/nav" %}
+      <div class="mx-auto  bg-white">
+        {% block content %}
+        {% endblock %}
+      </div>
+    </div>
+
+  </div>
+  <!--
+
+  -->
+
+
+  <!--
+    <footer class="container mx-auto mt-8 p-4 text-sm opacity-50">
     {{ siteInformation.siteDescription|markdown }}
     <p>&copy; {{ now|date('Y') }}, built with
       <a class="text-blue-600" href="https://craftcms.com">Craft CMS</a>
     </p>
   </footer>
+  -->
+
 </body>
 
 </html>

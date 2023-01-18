@@ -1,4 +1,4 @@
-dateModified: 1674045408
+dateModified: 1674065564
 email:
   fromEmail: a@a.nl
   fromName: test
@@ -12,16 +12,17 @@ fs:
     type: craft\fs\Local
     url: '@web/assets/blog'
   general:
-    hasUrls: false
+    hasUrls: true
     name: General
     settings:
       path: '@webroot/assets/general'
     type: craft\fs\Local
-    url: null
+    url: '@web/assets/general'
 meta:
   __names__:
     0cbb3606-f364-47c9-b6a3-3d8b5cbf2498: 'Site Information' # Site Information
     1f7223e8-807c-474f-9bb2-9f857701d219: 'Singles Fields' # Singles Fields
+    5fc830d0-aafa-4f4f-aa07-8bb7f1a0df0c: Home # Home
     6eb7ffdd-f793-41b4-8646-da6331908340: test # test
     7b475000-0893-46f6-9abe-df5d2d970564: Common # Common
     7f6c0ab5-9bba-4fd1-91d6-c0accd945c9a: About # About
@@ -39,9 +40,11 @@ meta:
     a9f2c73d-f1e7-4e78-a6fd-9f1a0b0c54a2: Blog # Blog
     af69b9fd-364e-4a8d-85d3-66d0086257d2: 'About Image' # About Image
     b78c2c45-0e70-410d-988f-d5e56b5dc276: Image # Image
+    b438b7fa-2255-4971-ad09-8f8b80cc9e74: Home # Home
     c08fcfac-1856-468b-83fe-575494066cd1: About # About
     dd7f97b7-d2b4-42a3-a8e3-db4f7f56ce50: 'Global Fields' # Global Fields
     dedde8ae-9da6-484c-9fce-56449f7c60f0: 'Feature Image' # Feature Image
+    f03d7f52-c9e5-4671-a79e-86a6158e9c03: 'Home Image' # Home Image
     f65a1194-ee19-4733-a097-2f0497e308bc: Image # Image
     fbb9470c-17ba-46c9-ad56-27502ddf8234: Summary # Summary
 plugins:

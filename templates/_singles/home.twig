@@ -1,0 +1,14 @@
+{% extends "_layout" %}
+
+{% block content %}
+    <h1> HOI </h1>
+{% endblock %}
+
+{% block image %}
+    {% if entry.homeImage | length %}
+        {% for image in entry.homeImage.all() %}
+        <div class="max-h-screen max-w-full bg-cover bg-center h-screen w-full absolute" style="background-image: url('{{image.getUrl() }}');">
+        </div>
+        {% endfor %}
+    {% endif %}
+{% endblock %}

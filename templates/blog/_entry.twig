@@ -16,7 +16,7 @@
     {% for image in entry.featureImage.all() %}
       <img src="{{ image.getUrl(featureImage) }}"
             alt="{{ image.title }}"
-            class="mx-auto hover:animate-spin"
+            class="mx-auto"
       />
     {% endfor %}
   {% endif %}
