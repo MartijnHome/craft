@@ -1,0 +1,19 @@
+columnSuffix: inadjeuz
+contentColumnType: text
+fieldGroup: dd7f97b7-d2b4-42a3-a8e3-db4f7f56ce50 # Global Fields
+handle: siteDescription
+instructions: null
+name: 'Site Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

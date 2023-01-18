@@ -1,0 +1,67 @@
+dateModified: 1674045408
+email:
+  fromEmail: a@a.nl
+  fromName: test
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  blog:
+    hasUrls: true
+    name: Blog
+    settings:
+      path: '@webroot/assets/blog'
+    type: craft\fs\Local
+    url: '@web/assets/blog'
+  general:
+    hasUrls: false
+    name: General
+    settings:
+      path: '@webroot/assets/general'
+    type: craft\fs\Local
+    url: null
+meta:
+  __names__:
+    0cbb3606-f364-47c9-b6a3-3d8b5cbf2498: 'Site Information' # Site Information
+    1f7223e8-807c-474f-9bb2-9f857701d219: 'Singles Fields' # Singles Fields
+    6eb7ffdd-f793-41b4-8646-da6331908340: test # test
+    7b475000-0893-46f6-9abe-df5d2d970564: Common # Common
+    7f6c0ab5-9bba-4fd1-91d6-c0accd945c9a: About # About
+    8bd94919-75dc-485a-b23d-e4877dc1f7bc: 'Blog Post Fields' # Blog Post Fields
+    33ded9ed-1112-45ee-a664-0aad9096be58: 'Post Categories' # Post Categories
+    86f9bfe0-40d4-4fbd-b836-9c078cd6f764: General # General
+    0099f170-15b8-4839-8bc8-531f523fb7d1: Text # Text
+    549fa84b-9770-4094-b2fd-a657e8f547b7: Blog # Blog
+    635bb1d5-cf1d-4684-959b-c5ab4909d302: 'Post Content' # Post Content
+    831ae481-45ef-4370-b34b-5a3d4c085799: Default # Default
+    2930cf68-74a1-4f02-b8e8-6e95c03bca3f: test # test
+    4808f33e-b4d1-412b-89af-5d01dc578d53: 'Blog Categories' # Blog Categories
+    116045fb-c6ff-4f45-a7d0-8039c2fd245d: 'Site Description' # Site Description
+    a9dd38b0-ea3f-4ceb-8f7c-5d7b1de6ed37: Text # Text
+    a9f2c73d-f1e7-4e78-a6fd-9f1a0b0c54a2: Blog # Blog
+    af69b9fd-364e-4a8d-85d3-66d0086257d2: 'About Image' # About Image
+    b78c2c45-0e70-410d-988f-d5e56b5dc276: Image # Image
+    c08fcfac-1856-468b-83fe-575494066cd1: About # About
+    dd7f97b7-d2b4-42a3-a8e3-db4f7f56ce50: 'Global Fields' # Global Fields
+    dedde8ae-9da6-484c-9fce-56449f7c60f0: 'Feature Image' # Feature Image
+    f65a1194-ee19-4733-a097-2f0497e308bc: Image # Image
+    fbb9470c-17ba-46c9-ad56-27502ddf8234: Summary # Summary
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  retcon:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: test
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
